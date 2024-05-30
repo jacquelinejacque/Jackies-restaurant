@@ -1,0 +1,93 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-left: 300px;
+    margin-right: 300px; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #996515;
+    padding: 10px;
+}
+.Sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  
+}
+h1{
+   margin-top: 10px; 
+}
+form input {
+    height: 40px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: black;
+}
+
+form textarea {
+    margin-top: 15px;
+    height: 70px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: black;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form input:focus,
+textarea:focus {
+    outline: none;
+}
+
+form label {
+    margin-top: 10px;
+    color: white;
+}
+.btn{
+    display: flex;
+}
+.btn .submit{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding-top: 15px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: grey;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.submit-gray{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding-top: 15px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #121619;
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.errors{
+    color: #8B0000;
+}
